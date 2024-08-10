@@ -1,0 +1,80 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image {
+  height: auto;
+  width: 100%;
+  display: block;
+  filter: brightness(70%) blur(2px);
+  border-radius: 1.5rem;
+}
+
+.hero-text h1 {
+  position: absolute;
+  top: 50%;
+  left: 20vw;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: Black-Pirates;
+  font-size: 6rem;
+  color: #f9e2af;
+}
+
+.grid-container {
+  padding: 3rem;
+}
+
+.link-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+
+.link-container .link-grid {
+  box-shadow: 0 5px 10 rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  background: #11111b;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.link-container .link-grid img {
+  height: 5rem;
+}
+
+.link-container .link-grid h4 {
+  color: #cdd6f4;
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
+.link-container .link-grid p {
+  color: #bac2de;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.link-container .link-grid .btn {
+  margin-top: 0.5rem;
+  display: inline-block;
+  background-color: #f5c2e7;
+  color: #11111b;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 8px 25px;
+}
+
+.link-container .link-grid .btn:hover {
+  background-color: #f38ba8;
+}
+.link-container .link-grid .btn:active {
+  background-color: #cba6f7;
+}
+
+.link-container .link-grid:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}

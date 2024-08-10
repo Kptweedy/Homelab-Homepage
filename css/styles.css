@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Jetbrains-Mono;
+  src: url(/font/jetbrains-mono-latin-400-normal.woff2) format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Black-Pirates;
+  src: url(/font/BlackPirates.woff2) format(woff2);
+  font-weight: 100;
+}
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 1rem;
+}
+
+* {
+  font-family: Jetbrains-Mono;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+a:link,
+a:visited {
+  color: #f5c2e7;
+}
+
+a:hover {
+  color: #f38ba8;
+}
+
+a:active {
+  color: #cba6f7;
+  transform: scale(1.1);
+}
+
+.ctp-logo {
+  text-align: right;
+  width: 5rem;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 0.5rem;
+}
+.ctp-logo img {
+  width: 4rem;
+  display: block;
+  margin: 1rem auto;
+}

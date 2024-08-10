@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+}
+header {
+  width: 100%;
+}
+
+nav {
+  background-color: #181825;
+  color: #cdd6f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem; /* Add 1rem padding on left and right */
+  box-shadow: 0 4px 6px rgb(17, 17, 27, 0.5);
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  font-family: Black-Pirates;
+  font-size: 4rem;
+  color: #f9e2af;
+}
+
+nav img {
+  margin-right: 0.5rem; /* Add space between image and text */
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+  margin: 0 1.5rem; /* Add space between links */
+  font-weight: 800;
+}
